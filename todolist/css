@@ -1,0 +1,17 @@
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.badge {
+    margin-left: 10px;
+}
+/* To ensure the buttons are the same size */
+.btn {
+    min-width: 70px;
+}
